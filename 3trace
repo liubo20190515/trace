@@ -31,7 +31,7 @@ ip_list=(202.96.128.86 202.96.134.33 210.21.196.6 221.5.88.88 211.136.192.6 120.
 ip_addr=(广州电信dns1 广州电信dns1 广州联通dns1 广州联通dns1 广州移动dns1 广州移动dns2 深圳电信 中山电信 广州移动)
 # ip_len=${#ip_list[@]}
 
-for i in {0..2}
+for i in {0..8}
 do
     echo ${ip_addr[$i]}
     ./besttrace -q 1 ${ip_list[$i]}
