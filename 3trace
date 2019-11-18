@@ -22,7 +22,7 @@ echo -e "\033[31m =============================================================\
 
 # install besttrace
 if [ ! -f "besttrace" ]; then
-    wget https://github.com/liubo20190515/trace/blob/master/besttrace.zip
+    wget https://github.com/liubo20190515/trace/blob/master/besttrace
     # unzip besttrace4linux.zip
     chmod +x besttrace
 fi
