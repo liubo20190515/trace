@@ -24,7 +24,7 @@ echo -e "\033[31m =============================================================\
 if [ ! -f "besttrace" ]; then
     wget https://github.com/liubo20190515/trace/blob/master/besttrace.zip
     
-    unzip besttrace*
+    unzip besttrace.zip
     
     chmod +x besttrace
 fi
