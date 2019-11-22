@@ -43,6 +43,6 @@ ip_addr=(广州电信dns1 广州电信dns2 广州联通dns1 广州联通dns2 广
 for i in {0..8}
 do
     echo ${ip_addr[$i]}
-    ./besttrace -q 1 ${ip_list[$i]}
+    ./besttrace -q 1 -g cn ${ip_list[$i]}
     next
 done
